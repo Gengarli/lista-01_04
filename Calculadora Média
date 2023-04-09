@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Main {
+  
+  public static void main(String[] args) {
+     
+     Scanner teclado = new Scanner(System.in);
+     
+     System.out.print("Me informe a nota do primeiro bimestre: ");
+     double P = teclado.nextDouble();
+     System.out.print("Me informe a nota do segundo bimestre: ");
+     double S = teclado.nextDouble();
+     System.out.print("Me informe a nota do terceiro bimestre: ");
+     double Y = teclado.nextDouble();
+     System.out.print("Me informe a nota do quarto bimestre: ");
+     double Q = teclado.nextDouble();
+
+     double T = (P + S + Y + Q) /4;
+    
+     System.out.println("A sua média é: " + T + "!");
+
+     }
+
+}
